@@ -37,7 +37,7 @@ while "*" in player_word:
     if len(miss_list) == len(word):
         print("You Lose!\nThe Word was: {}".format(word))
         print("Definition: {}".format(definition))
-        print("Defination by The Free Dictionary.com")
+        print("Definition by The Free Dictionary.com")
         break
     else:
         print_player_word()
@@ -61,4 +61,4 @@ else:
     print("Congrats! You Win!")
     print("The Word was: {}".format(word))
     print("Definition: {}".format(definition))
-    print("Defination by The Free Dictionary.com")
+    print("Definition by The Free Dictionary.com")
