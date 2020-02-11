@@ -25,8 +25,7 @@ try:
     f = open("words.txt")
 except IOError:
     definer.write_word_file()
-finally:
-    f.close()
+
 
 game_state = True
 
