@@ -26,10 +26,10 @@ A simple command line Hangman game powered by Python and using python modules li
       \path\to\env\Scripts\activate
 
 4. pip install the following packages:
+      
+      pip install requests
     
-    Random-Word
-    
-    beautifulsoup4
+      pip instatll beautifulsoup4
 
 5. run hangman.py and ENJOY! :)
 
